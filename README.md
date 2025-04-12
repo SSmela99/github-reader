@@ -13,7 +13,7 @@ Projekt podzielony jest na dwie główne części:
 
 ## Konfiguracja
 
-Aby aplikacja działała od razu, w projekcie zostały wgrane pliki `.env` z odpowiednimi ustawieniami. Możesz je znaleźć w głównym katalogu projektu. W razie potrzeby dostosuj te pliki, aby dopasować je do swoich lokalnych ustawień.
+Aby aplikacja działała od razu, w projekcie zostały wgrane pliki `.env` z odpowiednimi ustawieniami. Możesz je znaleźć w katologu backend.
 
 ## Instalacja
 
@@ -33,10 +33,15 @@ Aby aplikacja działała od razu, w projekcie zostały wgrane pliki `.env` z odp
 
     ```
 
+    Aplikacja powinna uruchomić się pod adresem http://localhost:5173/
+
 3. Instalacja oraz uruchomienie backendu:
+
     ```bash
     cd backend
     npm install
     npm run dev
     ```
+
+    Aplikacja powinna uruchomić się pod adresem http://localhost:4000/
 
