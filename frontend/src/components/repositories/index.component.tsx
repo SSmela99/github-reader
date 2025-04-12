@@ -14,6 +14,10 @@ const handleDescription = (description) => {
 };
 
 const Repositories = ({ repos }: RepositoriesProps) => {
+    if (repos.length === 0) {
+        return <Typography>Brak repozytoriów na twoim koncie.</Typography>;
+    }
+
     return (
         <Grid container spacing={2}>
             {repos.map((repo) => (
