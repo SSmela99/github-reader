@@ -45,3 +45,16 @@ Aby aplikacja działała od razu, w projekcie zostały wgrane pliki `.env` z odp
 
     Aplikacja powinna uruchomić się pod adresem http://localhost:4000/
 
+## Wymagania
+
+Aby uruchomić aplikację, musisz mieć zainstalowaną wersję Node.js:
+
+-   **Node.js** w wersji **16.x** lub wyższej
+-   **npm** (dołączony do Node.js)
+
+Sprawdź wersję Node.js w swoim systemie:
+
+```bash
+node -v
+```
+
