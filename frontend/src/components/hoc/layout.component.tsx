@@ -16,6 +16,7 @@ const withLayout = (Component: React.ComponentType) => {
     return (
       <Box>
         <p>test</p>
+        <p>test2</p>
         <ApplicationBar />
         <Box
           sx={{
